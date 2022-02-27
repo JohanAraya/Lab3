@@ -13,5 +13,7 @@ public class MainApp {
         MySpringWriterBeanWithDependency test = (MySpringWriterBeanWithDependency) factory
                 .getBean("MySpringWriterBeanWithDependency");
         test.run();
+
+
     }
 }
